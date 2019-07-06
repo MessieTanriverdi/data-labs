@@ -45,6 +45,15 @@ We can't add a and b, because they don't have the same shape
 #9. Transpose b so that it has the same structure of a (i.e. become a 2x3x5 array). Assign the transposed array to varialbe "c".
 c = b.reshape(2, 3, 5)
 
+c = b.transpose([1, 2, 0])
+
+print(b.shape, "\n")
+print(b, "\n\n")
+print(c)
+
+"""On a (5, 2, 3), on veut (2, 3, 5)
+-> 2 est en position 1, 3 est en position 2, 5 est en position 0 => on demande [1, 2, 0]"""
+
 #10. Try to add a and c. Now it should work. Assign the sum to varialbe "d". But why does it work now?
 d = np.add(a, c)
 
