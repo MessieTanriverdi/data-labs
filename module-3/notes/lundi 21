@@ -1,0 +1,21 @@
+        Decision Trees
+
+bool feature 
+   /   \
+ oui   non
+       autre feature
+           /   \
+   
+bon en training, mais mauvais sinon
+
+
+
+        Random Forest
+        
+Une variété : le Gradient Boosting avec XGBoost
+
+
+
+        Naive Bayes
+        
+        K-Nearest Neighbours
